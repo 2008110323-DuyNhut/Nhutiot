@@ -3,9 +3,9 @@ package com.nhutnd2008110323.ktgk;
 public class quanLytest {
     public static void main(String[] args) {
         danhSachquanLy list = new danhSachquanLy();
-        hocVien hocVien = new hocVien("Nguyen Duy Nhut","85/5", 8,9);
-        nhanVien nhanVien = new nhanVien("Tran Ngoc Giau", "100/8", 8);
-        khachHang khachHang = new khachHang("Nguyen Xuan Trinh", "100/9", "VN group", 3000000);
+        hocVien hocVien = new hocVien("Nguyen Duy Nhut","865/7", 6,9);
+        nhanVien nhanVien = new nhanVien("Tran Ngoc Giau", "168/7", 8);
+        khachHang khachHang = new khachHang("Nguyen Xuan Trinh", "457/6", "VN group", 3000000);
         list.themNguoi(hocVien);
         list.themNguoi(nhanVien);
         list.themNguoi(khachHang);
