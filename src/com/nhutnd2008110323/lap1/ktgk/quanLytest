@@ -1,0 +1,14 @@
+package com.nhutnd2008110323.ktgk;
+
+public class quanLytest {
+    public static void main(String[] args) {
+        danhSachquanLy list = new danhSachquanLy();
+        HocVien hocVien = new HocVien("Nguyen Duy Nhut","85/5", 8,9);
+        NhanVien nhanVien = new NhanVien("Tran Ngoc Giau", "100/8", 8);
+        KhachHang khachHang = new KhachHang("Nguyen Xuan Trinh", "100/9", "VN group", 3000000);
+        list.themNguoi(hocVien);
+        list.themNguoi(nhanVien);
+        list.themNguoi(khachHang);
+        list.inList();
+    }
+}
